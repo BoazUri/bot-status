@@ -19,7 +19,7 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["Official bot", "https://www.youtube.com/@TheDuckiesRizz", "watching you!"];
+const statusMessages = ["Official 24/7 music bot", "https://www.youtube.com/@TheDuckiesRizz", "Playing music"];
 const statusTypes = ['idle', 'inactive', 'dnd'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
